@@ -3,5 +3,5 @@
 </script>
 
 <template>
-  <h1>Minimum BlockChain</h1>
+  <h1 class="text-center color-lightblue">Minimum BlockChain</h1>
 </template>
