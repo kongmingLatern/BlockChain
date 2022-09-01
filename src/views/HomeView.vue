@@ -3,5 +3,5 @@
 </script>
 
 <template>
-  <main>主页</main>
+  <h1>Minimum BlockChain</h1>
 </template>
