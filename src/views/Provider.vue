@@ -1,14 +1,14 @@
 <template>
-  <h1>Goods</h1>
-  <ul>
-    <GoosItmes :goods="goodsItem" />
+  <h1>Provider</h1>
+  <ul ml-10>
+    <GoodsItmes :goods="goodsItem" />
   </ul>
 
 </template>
 
 <script setup lang='ts'>
 import { reactive } from "vue";
-import GoosItmes from "../components/GoosItmes.vue";
+import GoodsItmes from "../components/GoodsItmes.vue";
 const goodsItem = reactive([
   {
     id: 1,
