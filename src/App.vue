@@ -6,5 +6,10 @@ import HomeView from '@/views/HomeView.vue';
   <HomeView />
 </template>
 
-<style scoped>
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 </style>
