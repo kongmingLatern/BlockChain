@@ -1,11 +1,11 @@
 <template>
   <h1>Consumer</h1>
-  <TableInfo />
+  <UserList />
 </template>
 
-<script setup lang='ts'>
-import TableInfo from '@/components/TableInfo.vue';
+<script setup lang="ts">
+// import TableInfo from '@/components/TableInfo.vue';
+import UserList from "../components/UserList.vue";
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
