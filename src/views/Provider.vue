@@ -9,21 +9,22 @@
 <script setup lang='ts'>
 import { reactive } from "vue";
 import GoodsItmes from "../components/GoodsItmes.vue";
-const goodsItem = reactive([
+import type { GoodsItem } from '../type';
+const goodsItem = reactive<GoodsItem[]>([
   {
     id: 1,
     name: "apple",
-    price: 100,
+    price: '10BTB',
   },
   {
     id: 2,
     name: "banana",
-    price: 200,
+    price: '10BTB',
   },
   {
     id: 3,
     name: "orange",
-    price: 300,
+    price: '15BTB',
   },
 ]);
 </script>

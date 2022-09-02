@@ -11,3 +11,9 @@ interface Transaction {
   recipient: string
   amount: number
 }
+
+export interface GoodsItem {
+  id: string | number
+  name: string
+  price: string
+}
