@@ -1,8 +1,11 @@
 <template>
   <h1>Provider</h1>
-  <ul ml-10>
+  <table ml-10 border w-100 text-center>
+    <th>商品名称</th>
+    <th>最低售价</th>
+    <th>购买</th>
     <GoodsItmes :goods="goodsItem" />
-  </ul>
+  </table>
 
 </template>
 

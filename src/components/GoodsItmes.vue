@@ -1,11 +1,11 @@
 <template>
-  <li v-for="item in goods" :key="item.name">
-    <div flex flex-row justify-between w-70 align-center mb-10 text-5>
-      <span font-semibold>{{ item.name }}</span>
-      <span>{{ item.price }} 元</span>
+  <tr v-for="item in goods" :key="item.name">
+    <td font-semibold>{{ item.name }}</td>
+    <td>{{ item.price }} 元</td>
+    <td>
       <router-link to="" decoration-none>购买</router-link>
-    </div>
-  </li>
+    </td>
+  </tr>
 </template>
 
 <script setup lang='ts'>
