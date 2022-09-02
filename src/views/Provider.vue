@@ -42,7 +42,7 @@ const sellers: Seller[] = [{
   }],
 },
 {
-  name: "Ming",
+  name: "Third",
   payLoad: 4,
   goodsItem: [{
     id: 1,
