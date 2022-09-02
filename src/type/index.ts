@@ -15,5 +15,5 @@ interface Transaction {
 export interface GoodsItem {
   id: string | number
   name: string
-  price: string
+  price: Readonly<string>
 }

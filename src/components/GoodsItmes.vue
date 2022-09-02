@@ -13,7 +13,7 @@ defineProps<{
   goods: {
     id: number | string,
     name: string;
-    price: string;
+    price: Readonly<string>;
   }[]
 }>()
 </script>
