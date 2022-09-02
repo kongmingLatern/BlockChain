@@ -31,3 +31,9 @@ export type Seller {
   payLoad: number,
   goodsItem: GoodsItem[]
 }
+
+export type ConsumerInfo = {
+ name: string,
+  payment: number,
+  wallet: number
+}
