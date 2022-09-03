@@ -26,14 +26,15 @@ export interface UserInfoType {
   wallet: string | string
 }
 
-export type Seller {
-  name: string,
-  payLoad: number,
+export type Seller = {
+  name: string
+  payLoad: number
+  sales: number
   goodsItem: GoodsItem[]
 }
 
 export type ConsumerInfo = {
- name: string,
-  payment: number,
+  name: string
+  payment: number
   wallet: number
 }
