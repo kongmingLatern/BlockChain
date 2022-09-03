@@ -1,6 +1,7 @@
 <template>
   <h1>Provider</h1>
-  <ProviderTable v-for="item in sellers" :key="item.name" :seller="item.name" :goodsItem="item.goodsItem" />
+  <ProviderTable v-for="item in sellers" :key="item.name" :seller="item.name" :sales="item.sales"
+    :goodsItem="item.goodsItem" />
 </template>
 
 <script setup lang="ts">
@@ -10,6 +11,7 @@ import type { Seller } from "@/type";
 const sellers: Seller[] = [{
   name: "Ming",
   payLoad: 2,
+  sales: 10,
   goodsItem: [{
     id: 1,
     name: "苹果",
@@ -27,6 +29,7 @@ const sellers: Seller[] = [{
 {
   name: "Li",
   payLoad: 3,
+  sales: 11,
   goodsItem: [{
     id: 1,
     name: "苹果",
@@ -44,6 +47,7 @@ const sellers: Seller[] = [{
 {
   name: "Third",
   payLoad: 4,
+  sales: 12,
   goodsItem: [{
     id: 1,
     name: "苹果",
