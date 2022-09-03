@@ -3,7 +3,7 @@ import HomeView from "@/views/HomeView.vue";
 </script>
 
 <template>
-  <h1 text-center color-lightblue>Minimum BlockChain</h1>
+  <h1 text-center color-red font-semibold>Minimum BlockChain</h1>
   <HomeView />
 </template>
 

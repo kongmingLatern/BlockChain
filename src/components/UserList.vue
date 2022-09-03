@@ -1,5 +1,5 @@
 <template>
-  <a-table :columns="columns" :data-source="data" bordered>
+  <a-table :columns="columns" :data-source="userList" bordered>
     <template #bodyCell="{ column, text }">
       <template v-if="column.dataIndex === 'name'">
         <a>{{ text }}</a>
@@ -20,32 +20,21 @@ const columns = [
   {
     title: "Payment",
     className: "column-money",
-    dataIndex: "money",
-  },
-];
-
-const data = [
-  {
-    key: "1",
-    name: "John Brown",
-    money: "￥300,000.00",
-  },
-  {
-    key: "2",
-    name: "Jim Green",
-    money: "￥1,256,000.00",
-  },
-  {
-    key: "3",
-    name: "Joe Black",
-    money: "￥120,000.00",
+    dataIndex: "wallet",
   },
 ];
 
 export default defineComponent({
-  setup() {
+  props: {
+    userList: {
+      type: Array,
+      required: true,
+    },
+  },
+  setup(props) {
+    console.log(props);
+
     return {
-      data,
       columns,
     };
   },

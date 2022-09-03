@@ -34,6 +34,7 @@ export type Seller = {
 }
 
 export type ConsumerInfo = {
+  id: number | string
   name: string
   payment: number
   wallet: number
