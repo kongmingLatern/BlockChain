@@ -4,7 +4,6 @@
 </template>
 
 <script setup lang="ts">
-// import TableInfo from '@/components/TableInfo.vue';
 import type { ConsumerInfo } from "@/type";
 import { reactive } from "vue";
 import UserList from "../components/UserList.vue";
