@@ -2,7 +2,7 @@
   <table border text-center m-0 m-auto w-100>
     <caption caption-top text-5 color-blue>
       <span float-left>{{ seller }}</span>
-      <span float-right text-4 color-red>￥{{ sales }} / BTB</span>
+      <span float-right text-4 color-red>Gas Price: ￥{{ sales }}</span>
     </caption>
     <tr>
       <th>商品名称</th>
