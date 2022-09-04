@@ -19,8 +19,8 @@ const columns = [
   },
   {
     title: "Payment",
-    className: "column-money",
-    dataIndex: "wallet",
+    // className: "column-money",
+    dataIndex: "payment",
   },
 ];
 
@@ -32,8 +32,6 @@ export default defineComponent({
     },
   },
   setup(props) {
-    console.log(props);
-
     return {
       columns,
     };
