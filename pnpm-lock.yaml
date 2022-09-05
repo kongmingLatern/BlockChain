@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons-vue': ^6.1.0
   '@rushstack/eslint-patch': ^1.1.4
   '@types/jsdom': ^20.0.0
   '@types/node': ^16.11.47
@@ -32,6 +33,7 @@ dependencies:
   vue-router: registry.npmmirror.com/vue-router/4.1.5_vue@3.2.38
 
 devDependencies:
+  '@ant-design/icons-vue': registry.npmmirror.com/@ant-design/icons-vue/6.1.0_vue@3.2.38
   '@rushstack/eslint-patch': registry.npmmirror.com/@rushstack/eslint-patch/1.1.4
   '@types/jsdom': registry.npmmirror.com/@types/jsdom/20.0.0
   '@types/node': registry.npmmirror.com/@types/node/16.11.56
@@ -72,13 +74,11 @@ packages:
     version: 6.0.0
     dependencies:
       '@ctrl/tinycolor': registry.npmmirror.com/@ctrl/tinycolor/3.4.1
-    dev: false
 
   registry.npmmirror.com/@ant-design/icons-svg/4.2.1:
     resolution: {integrity: sha512-EB0iwlKDGpG93hW8f85CTJTs4SvMX7tt5ceupvhALp1IF44SeUFOMhKUOYqpsoYWQKAOuTRDMqn75rEaKDp0Xw==, registry: https://r.npm.taobao.org/, tarball: https://registry.npmmirror.com/@ant-design/icons-svg/-/icons-svg-4.2.1.tgz}
     name: '@ant-design/icons-svg'
     version: 4.2.1
-    dev: false
 
   registry.npmmirror.com/@ant-design/icons-vue/6.1.0_vue@3.2.38:
     resolution: {integrity: sha512-EX6bYm56V+ZrKN7+3MT/ubDkvJ5rK/O2t380WFRflDcVFgsvl3NLH7Wxeau6R8DbrO5jWR6DSTC3B6gYFp77AA==, registry: https://r.npm.taobao.org/, tarball: https://registry.npmmirror.com/@ant-design/icons-vue/-/icons-vue-6.1.0.tgz}
@@ -91,7 +91,6 @@ packages:
       '@ant-design/colors': registry.npmmirror.com/@ant-design/colors/6.0.0
       '@ant-design/icons-svg': registry.npmmirror.com/@ant-design/icons-svg/4.2.1
       vue: registry.npmmirror.com/vue/3.2.38
-    dev: false
 
   registry.npmmirror.com/@antfu/install-pkg/0.1.0:
     resolution: {integrity: sha512-VaIJd3d1o7irZfK1U0nvBsHMyjkuyMP3HKYVV53z8DKyulkHKmjhhtccXO51WSPeeSHIeoJEoNOKavYpS7jkZw==, registry: https://r.npm.taobao.org/, tarball: https://registry.npmmirror.com/@antfu/install-pkg/-/install-pkg-0.1.0.tgz}
@@ -162,7 +161,6 @@ packages:
     name: '@ctrl/tinycolor'
     version: 3.4.1
     engines: {node: '>=10'}
-    dev: false
 
   registry.npmmirror.com/@cypress/request/2.88.10:
     resolution: {integrity: sha512-Zp7F+R93N0yZyG34GutyTNr+okam7s/Fzc1+i3kcqOP8vk6OuajuE9qZJ6Rs+10/1JFtXFYMdyarnU1rZuJesg==, registry: https://r.npm.taobao.org/, tarball: https://registry.npmmirror.com/@cypress/request/-/request-2.88.10.tgz}
