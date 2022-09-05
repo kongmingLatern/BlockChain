@@ -1,18 +1,14 @@
 <script setup lang="ts">
-import HomeView from "@/views/HomeView.vue";
-import { ref } from "vue";
-const age = ref(0)
-const add  = () => {
-  age.value ++
-}
+import Main from "@/views/Main.vue";
 </script>
 
 <template>
-  <h1 text-center color-red font-semibold>Minimum BlockChain</h1>
-  <HomeView />
-  <button @click="add">点击+1</button>
-  <br />
-  <span text-blue>{{age}}</span>
+  <header flex justify-between items-center p-2 bg-red h-20>
+    <h1 class="h_100" lh-20 color-white font-semibold>Minimum BlockChain</h1>
+    <a-button text-right>登录</a-button>
+  </header>
+  <Main></Main>
+  <!-- <HomeView /> -->
 </template>
 
 <style>
@@ -20,5 +16,9 @@ const add  = () => {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.h_100 {
+  height: 100%;
 }
 </style>
