@@ -18,10 +18,9 @@ import type { GoodsItem } from "@/type";
 import GoodsItems from "./GoodsItems.vue";
 defineProps<{
   seller: string;
-  sales: number,
-  goodsItem: GoodsItem[]
+  sales: number;
+  goodsItem: GoodsItem[];
 }>();
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

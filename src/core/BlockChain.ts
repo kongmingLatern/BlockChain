@@ -1,8 +1,8 @@
-import type { Block } from '@/type'
+import type { Block } from "@/type";
 
 export class BlockChain {
-  private chain: Block[]
+  private chain: Block[];
   constructor(chain: Block[]) {
-    this.chain = chain
+    this.chain = chain;
   }
 }

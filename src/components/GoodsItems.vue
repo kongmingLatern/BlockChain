@@ -10,12 +10,10 @@ import { GoodsItem } from '../type';
 </template>
 
 <script setup lang="ts">
-import type { GoodsItem } from '@/type';
+import type { GoodsItem } from "@/type";
 defineProps<{
-  goods: GoodsItem[]
-}
->();
+  goods: GoodsItem[];
+}>();
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
